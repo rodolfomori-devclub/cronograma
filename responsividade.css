@@ -1,0 +1,126 @@
+@media (max-width: 800px) {
+    body {
+        background: #02081A;
+    }
+
+    .div-cronometro {
+        flex-direction: column;
+    }
+    .cards-cronometro {
+        width: 100%;
+        justify-content: space-between;
+        padding: 0 30px;
+    }
+    .el {
+        font-size: 32px;
+    }
+    .container-1 {
+        background-image: url('./assets/bg-parte-1.webp');
+    }
+    .card-container-1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .card-container-1 p {
+        font-size: 18px;
+    }
+    .content-1 {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .content-1 p {
+        margin-bottom: 12px;
+    }
+    .content-2 {
+        flex-direction: column;
+    } 
+    .content-2 a {
+        width: 100%;
+        margin-bottom: 12px;
+    }
+    .div-icones-2 {
+        display: flex;
+        flex-direction: column;
+        padding: 20px 0;
+    }
+    .icones-2-textos {
+        align-items: center;
+        text-align: center;
+    }
+    .icones-2-textos p:first-child {
+        text-align: center;
+    }
+    .icones-2-textos p:last-child {
+        text-align: center;
+    }
+    .div-icones-2 img {
+        max-width: 55px;
+        margin-right: 0;
+        margin-bottom: 12px;
+    }
+    .container-4 {
+        background-image: url('assets/background-3.webp');
+        background-repeat: initial;
+        background-position: top center;
+        background-size: auto;
+        padding-top: 60px;
+        padding-bottom: 30px;
+    }
+
+    .div-container-5-parte-2 {
+        padding: 15px;
+    }
+    .img {
+        max-width: 100%;
+        margin-top: 18px;
+    }
+
+
+
+
+
+
+
+
+
+
+}
+@media (max-width: 1020px) {
+    .card-container-1 {
+        padding: 30px;
+        max-width: 1000px;
+    }
+    .logo-missao-zero {
+        max-width: 650px;
+    }
+    .seta {
+        margin-top: 15px;
+        width: 55px;
+        height: 100%;
+        transform: none;
+    }
+    .card-container-2 {
+        width: 80%;
+        flex-direction: column;
+    }
+    .baner{
+        margin-right: 0;
+        width: 100%;
+        max-width: none;
+        margin-bottom: 20px;
+    }
+    .content-1 {
+        justify-content: space-between;
+    }
+    .div-icones {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 20px;
+        align-items: start;
+        padding: 20px 0;
+        max-width: 920px;
+    }
+}
