@@ -9,7 +9,7 @@ const minutosEl1 = document.getElementById("minutos1")
 const segundosEl1 = document.getElementById("segundos1")
 
 function contadorDias(){
-    const dataCurso = new Date("31 Jan 2023 20:00:00")
+    const dataCurso = new Date("31 Jan 2023 19:00:00")
     const dataAtual = new Date()
 
     const totalSegundos = (dataCurso - dataAtual) / 1000
