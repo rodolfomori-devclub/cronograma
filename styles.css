@@ -119,14 +119,15 @@
 }
 
 .texto-dias {
-    font-size: 25px;
+    font-size: 35px;
     font-family: 'Sora-Regular';
     text-align: center;
     margin-bottom: 12px;
+    padding: 30px;
 }
 
 .texto-dias span {
-    font-size: 25px;
+    font-size: 35px;
     color: #cfff00;
     font-family: 'Sora-Regular';
     text-align: center;
@@ -453,7 +454,6 @@ a {
     margin: 0 auto;
     padding: 50px;
     display: flex;
-    flex-wrap: wrap;
 }
 
 .div-elementos {
@@ -520,6 +520,7 @@ a {
 }
 .img {
     max-width: 50%;
+    margin-top: 30px;
 }
 
 footer {
