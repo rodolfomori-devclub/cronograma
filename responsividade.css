@@ -15,7 +15,12 @@
         font-size: 32px;
     }
     .container-1 {
-        background-image: url('./assets/bg-parte-1.webp');
+        background-image:none;
+        background-color: #040E20;
+    }
+    .mobile-img{
+        display: inline-block;
+        width: 100%;
     }
     .card-container-1 {
         display: flex;
@@ -25,7 +30,7 @@
         text-align: center;
     }
     .card-container-1 p {
-        font-size: 18px;
+        font-size: 25px;
     }
     .content-1 {
         flex-direction: column;
@@ -84,20 +89,22 @@
         max-width: 100%;
         margin-top: 50px;
     }
+    .div-redes-sociais p{
+      margin: 10px;
+    }
+    .div-img-redes-sociais img{
+        width: 80px;
+        margin: 10px;
+    }
 }
 @media (max-width: 1020px) {
     .card-container-1 {
-        padding: 30px;
+        padding: 45px;
+        margin-left: 30px;
         max-width: 1000px;
     }
     .logo-missao-zero {
-        max-width: 650px;
-    }
-    .seta {
-        margin-top: 15px;
-        width: 55px;
-        height: 100%;
-        transform: none;
+        max-width: 500px;
     }
     .card-container-2 {
         width: 100%;
