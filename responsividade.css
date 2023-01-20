@@ -128,3 +128,11 @@
         max-width: 920px;
     }
 }
+@media (min-width: 1500px) {
+    .container-1 {
+    padding: 90px;
+    }
+    .card-container-1{
+        padding: 30px;
+    }
+}
