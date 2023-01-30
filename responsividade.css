@@ -28,6 +28,7 @@
         align-items: center;
         justify-content: center;
         text-align: center;
+        margin-left: 0px;
     }
     .card-container-1 p {
         font-size: 25px;
@@ -80,6 +81,10 @@
         padding-top: 60px;
         padding-bottom: 30px;
     }
+    .container-5{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
 
     .div-container-5-parte-2 {
         padding: 15px;
@@ -100,7 +105,7 @@
 @media (max-width: 1020px) {
     .card-container-1 {
         padding: 45px;
-        margin-left: 30px;
+        margin-left: 0px;
         max-width: 1000px;
     }
     .logo-missao-zero {
