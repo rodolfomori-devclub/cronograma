@@ -203,8 +203,30 @@
 .content-2 p {
     margin-left: 5px;
 }
+.button-content-2{
+    background-color: #c60b0bc3;
+    font-family: 'Sora-Bold', Sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    width: 100%;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 0 18px 0 rgba(255, 0, 0, 0.096);
+    padding: 18px 50px;
+    margin-right: 26px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation-name: tamanho;
+    transition: 1s;
+    animation-iteration-count: infinite;
+    animation-duration: 1.5s;
+    animation-timing-function: ease-in-out;
 
-.button {
+}
+.button{
     font-family: 'Sora-Bold', Sans-serif;
     font-size: 15px;
     font-weight: 600;
@@ -227,12 +249,14 @@
     animation-timing-function: ease-in-out;
 }
 
-.button:hover {
+.button:hover, .button-content-2:hover {
     transform: scale(1.05);
     animation: none;
 }
+.button-content-2 img{
 
-.button img {
+}
+.button img,.button-content-2 img {
     width: 18px;
     margin-right: 16px;
 }
