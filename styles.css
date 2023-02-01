@@ -197,11 +197,10 @@
 .content-2 {
     display: flex;
     align-items: center;
-    justify-content: space-between;
     flex-wrap: wrap;
 }
 .content-2 p {
-    margin-left: 5px;
+    margin-left: 25px;
 }
 .button, .button-content-2{
     font-family: 'Sora-Bold', Sans-serif;
