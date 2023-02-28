@@ -150,6 +150,7 @@
 .baner {
     border-radius: 10px;
     max-width: 450px;
+    max-height: 450px;
     margin-right: 52px;
 }
 
@@ -237,6 +238,7 @@
 }
 .button img,.button-content-2 img {
     width: 18px;
+    height: 18px;
     margin-right: 16px;
 }
 
@@ -336,6 +338,7 @@
 
 .card-container-3-parte-2 div img {
     max-width: 35px;
+    max-height: 35px;
     margin-bottom: 15px;
 }
 
@@ -404,6 +407,7 @@
 
 .div-icones-2 img {
     max-width: 55px;
+    max-height: 55px;
     margin-right: 26px;
 
 }
@@ -538,6 +542,7 @@ a {
 }
 .div-img-redes-sociais img{
     width: 60px;
+    height: 63px;
     margin: 5px;
     cursor: pointer;
 }
